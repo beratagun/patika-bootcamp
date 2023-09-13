@@ -37,7 +37,7 @@ public class Main {
 
         int sonuc = (mat+fizik+kimya+turkce+tarih+muzik);
 
-        // Ortalamayı alacak değişkeni yazalım
+        // Ortalamayı alacak değişkeni yazalım.
 
         int ort = (sonuc/6);
 
