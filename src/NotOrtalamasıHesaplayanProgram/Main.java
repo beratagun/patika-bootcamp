@@ -41,12 +41,12 @@ public class Main {
 
         int ort = (sonuc/6);
 
-        // Not ortalaması 60'dan büyük olması durumunda çıktı verecek koşulu yazalım
+        // Not ortalaması 60'dan büyük olması durumunda çıktı verecek koşulu yazalım.
 
 
         System.out.println("Ortalamanız " + ort );
 
-        System.out.println(ort > 60 ? "Sınıfı Geçti" : "Sınıfta Kaldı");
+        System.out.println(ort > 60 ? "Sınıfı Gecti" : "Sınıfta Kaldı");
 
 
     }
