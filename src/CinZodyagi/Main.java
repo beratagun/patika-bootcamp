@@ -11,7 +11,7 @@ public class Main {
         String horoscope = "";
         boolean isError = false;
 
-        System.out.print("Doğum yılınızı giriniz : ");
+        System.out.print("Doğum yılınızı giriniz :  ");
         int dateOfBirth = input.nextInt();
 
         int number = dateOfBirth % 12;
