@@ -15,10 +15,10 @@ public class ToolStore extends NormalLocation {
             System.out.println("3- Quit from the store");
             System.out.print("Your choice: ");
             //This input comes from Location class
-            int selectCase = Location.input.nextInt();
+            int selectCase = input.nextInt();
             while (selectCase < 1 || selectCase > 3) {
                 System.out.print("Invalid transaction. Try again: ");
-                selectCase = Location.input.nextInt();
+                selectCase = input.nextInt();
             }
             switch (selectCase) {
                 case 1:
@@ -55,7 +55,7 @@ public class ToolStore extends NormalLocation {
         int selectGunID = input.nextInt();
         while (selectGunID < 0 || selectGunID > Gun.guns().length) {
             System.out.print("Invalid transaction. Try again: ");
-            selectGunID = Location.input.nextInt();
+            selectGunID = input.nextInt();
         }
         if (selectGunID != 0) {
             Gun selectedGun = Gun.getGunObjById(selectGunID);
@@ -96,7 +96,7 @@ public class ToolStore extends NormalLocation {
         int selectArmorID = input.nextInt();
         while (selectArmorID < 0 || selectArmorID > Armor.armors().length) {
             System.out.print("Invalid transaction. Try again: ");
-            selectArmorID = Location.input.nextInt();
+            selectArmorID = input.nextInt();
         }
         if (selectArmorID != 0) {
             Armor selectedArmor = Armor.getArmorObjByID(selectArmorID);
